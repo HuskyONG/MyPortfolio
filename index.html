@@ -343,7 +343,6 @@
 
       <div class="hero-photo-wrap">
         <div class="hero-photo-ring" id="heroPhotoRing">
-          <!-- ★ TO ADD YOUR PHOTO: set DATA.profilePhoto = "path/to/photo.jpg" in the script below -->
           <div class="hero-photo-placeholder">
             <img src = "Stuff/pfp1.jpg">
           </div>
@@ -526,9 +525,6 @@
 <script>
 const DATA = {
 
-  /* ── Set this to your photo path to show it on the home page.
-        Example: "images/me.jpg" or "Stuff/photo.png"
-        Leave as "" to show the placeholder.              ── */
   profilePhoto: "",
 
   resumePDF: "Stuff/Resume.pdf",
@@ -564,6 +560,16 @@ const DATA = {
       links: [
         { label: "⌥ Devpost Demo", url: "https://devpost.com/software/snap-link" },
         { label: "↗ GitHub",       url: "https://github.com/HuskyONG/SparkHackProject" }
+      ]
+    },
+    {
+      type:  "Frontend Website",
+      date:  "Feb 2026",
+      title: "Counting Cards",
+      desc:  "This is a website that helps me study. It implements a deck of cards in which each card has a set amount of time dedicated to study. The algorithm randomly selects a card and puts the appropriately time in the timer section. Also there is a togglable deck below in which you can deactivate cards you already have done.",
+      tech:  ["HTML,", "VSCode"],
+      links: [
+        { label: "⌥ GitHub",   url: "https://huskyong.github.io/Study_Cards/" }
       ]
     }
     /* ADD A NEW PROJECT — copy & paste this block:
